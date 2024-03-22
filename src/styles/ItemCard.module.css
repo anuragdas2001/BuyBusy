@@ -1,0 +1,45 @@
+.ItemWrapper{
+    height:200px;
+    width:200px;
+    margin:5px;
+    display: flex;
+    /* align-items: last baseline; */
+    /* justify-content: space-between; */
+    /* border:2px solid black; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    
+    
+}
+.ItemName{
+    font-weight:bolder ;
+    display: flex;
+    align-items:last baseline;
+    padding: 1px; 
+
+
+
+}
+.ItemPrice{
+    display: flex;
+    /* margin */
+    align-items:last baseline;
+    padding: 5px; 
+
+
+}
+.ItemImg{
+    height:100px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin:10px 0px 0px 0px;
+    padding: 5px; 
+}
+.ItemButtonWrapper{
+
+}
+.ItemButton{
+
+}
