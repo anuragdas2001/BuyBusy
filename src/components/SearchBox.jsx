@@ -1,3 +1,4 @@
+
 export const SearchBox = () => {
   return (
     <>
@@ -12,6 +13,7 @@ export const SearchBox = () => {
           Search
         </button>
       </form>
+    
     </>
   );
 };
