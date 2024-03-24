@@ -2,7 +2,7 @@ import styles from "../styles/Items.module.css";
 import { ItemData } from "../Data/ItemData";
 import { ItemCard } from "./ItemCard";
 export const Items = ({handleCart}) => {
-  console.log(handleCart);
+  // console.log(handleCart);
   return (
     <>
       <div className={`${styles.wrapper}`}>

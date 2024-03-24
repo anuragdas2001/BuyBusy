@@ -44,7 +44,7 @@
     display: flex;
     align-items: last baseline;
     justify-content: last baseline;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:150px 0px 0px 50px;
     border-radius: 5px;
     

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../styles/ItemCard.module.css";
-export const ItemCard = ({ name, price, id, img,handleCart }) => {
-
+export const ItemCard = ({ name, price, id, img, handleCart }) => {
+ 
   return (
     <>
       <div className={`${styles.ItemWrapper}`}>
@@ -12,7 +12,7 @@ export const ItemCard = ({ name, price, id, img,handleCart }) => {
         <div className={`${styles.ItemButtonWrapper}`}>
           <button
             onClick={() => {
-              handleCart();
+              handleCart({ name, img, price, id });
             }}
             className={`${styles.cartButton}`}
           >
