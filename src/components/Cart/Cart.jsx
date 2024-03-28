@@ -16,7 +16,7 @@ export const Cart = ({cartItems,handlePurchase,handleAdd,handleRemove}) => {
               <div className={`${styles.ItemPrice}`}>&#8377;{item.price}</div>
               <div className={`${styles.ItemButtonWrapper} ms-3`}>
                 <button onClick={()=>handleRemove(item)} className="me-4">-</button>
-                <button onClick={()=>handlePurchase(item)} className={`${styles.cartButton} me-3`}>Purchase</button>
+                <button onClick={()=>{handlePurchase(item)}} className={`${styles.cartButton} me-3`}>Purchase</button>
                 <span>X{item.qty}</span>
                 <button onClick={()=>handleAdd(item)} className="ms-2">+</button>
               </div>

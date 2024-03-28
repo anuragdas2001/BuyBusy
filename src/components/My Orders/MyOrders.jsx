@@ -7,7 +7,7 @@ export const MyOrders = ({ orders,date }) => {
   // console.log({orders});
   // console.log(orders[0].title);
   // console.log(qty);
-  console.log(orders[0].date);
+  // console.log(orders[0].date);
   let total = 0;
 
   return (
